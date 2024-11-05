@@ -34,10 +34,23 @@ visit below link for samble outputs
 
 ```html
 <button class="vk-btn">Button</button>
+<button class="vk-btn-red">Button</button>
+<button class="vk-btn-red-r">Button</button>
+<button class="vk-btn-outline-red">Button</button>
+<button class="vk-btn-outline-red-r">Button</button>
+<button class="vk-btn-red-g">Button</button>
+<button class="vk-btn-red-g-r">Button</button>
 ```
 
 ### Badge
 
 ```html
-<button class="vk-badge-red">Badge</button>
+<span class="vk-badge-red">Danger</span>
+<span class="vk-badge-blue">Danger</span>
+<span class="vk-badge-green">Danger</span>
+<span class="vk-badge-yellow">Danger</span>
+<span class="vk-badge-cyan">Danger</span>
+<span class="vk-badge-teal">Danger</span>
+<span class="vk-badge-purple">Danger</span>
+<span class="vk-badge-lime">Danger</span>
 ```
