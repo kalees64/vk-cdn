@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Buttons */
+
+@import "./styles/Button/button.css";
+@import "./styles/Button/button.outline.css";
+@import "./styles/Button/button.gradient.css";
+@import "./styles/Button/button.rounded.css";
+@import "./styles/Button/button.outline.rounded.css";
+@import "./styles/Button/button.gradient.rounded.css";
+
+/* Badges */
+
+@import "./styles/Badge/badge.css";

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Badges */
+
+.vk-badge-blue {
+  @apply bg-blue-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-blue-600 dark:text-white;
+}
+
+.vk-badge-red {
+  @apply bg-red-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-red-600 dark:text-white;
+}
+
+.vk-badge-green {
+  @apply bg-green-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-green-600 dark:text-white;
+}
+
+.vk-badge-yellow {
+  @apply bg-yellow-500 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-yellow-500 dark:text-white;
+}
+
+.vk-badge-cyan {
+  @apply bg-cyan-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-cyan-600 dark:text-white;
+}
+
+.vk-badge-teal {
+  @apply bg-teal-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-teal-600 dark:text-white;
+}
+
+.vk-badge-pink {
+  @apply bg-pink-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-pink-600 dark:text-white;
+}
+
+.vk-badge-purple {
+  @apply bg-purple-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-purple-600 dark:text-white;
+}
+
+.vk-badge-lime {
+  @apply bg-lime-600 text-white text-xs font-medium  px-2.5 py-0.5 rounded dark:bg-lime-600 dark:text-white;
+}
