@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Borderless Table */
+
+.vk-table-borderless {
+  @apply table;
+}
+
+.vk-table-borderless > thead {
+  @apply p-2 bg-gray-300;
+}
+
+.vk-table-borderless > thead > tr > th {
+  @apply p-2;
+}
+
+.vk-table-borderless > tbody > tr > th {
+  @apply p-2;
+}
+
+.vk-table-borderless > tr > th {
+  @apply p-2;
+}
+
+.vk-table-borderless > thead > tr > td {
+  @apply p-2;
+}
+
+.vk-table-borderless > tbody > tr > td {
+  @apply p-2;
+}
+
+.vk-table-borderless > tr > td {
+  @apply p-2;
+}

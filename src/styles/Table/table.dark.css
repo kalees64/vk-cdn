@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Table Dark*/
+
+.vk-table-dark {
+  @apply w-full table border border-collapse border-gray-900;
+}
+
+.vk-table-dark > thead {
+  @apply border border-gray-900 p-2 bg-black text-white;
+}
+
+.vk-table-dark > thead > tr > th {
+  @apply border border-gray-900 p-2;
+}
+
+.vk-table-dark > tbody > tr > th {
+  @apply border border-gray-900 p-2;
+}
+
+.vk-table-dark > tr > th {
+  @apply border border-gray-900 p-2;
+}
+
+.vk-table-dark > thead > tr > td {
+  @apply border border-gray-900 p-2;
+}
+
+.vk-table-dark > tbody > tr > td {
+  @apply border border-gray-900 p-2;
+}
+
+.vk-table-dark > tr > td {
+  @apply border border-gray-900 p-2;
+}

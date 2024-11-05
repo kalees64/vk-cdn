@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Placeholder */
+
+.vk-placeholder {
+  @apply inline-block  cursor-wait px-1 py-1 rounded-2xl animate-pulse bg-gray-500;
+}

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hover Table */
+
+.vk-table-hover {
+  @apply w-full table;
+}
+
+.vk-table-hover > thead > tr {
+  @apply p-2;
+}
+
+.vk-table-hover > tbody > tr {
+  @apply p-2;
+}
+
+.vk-table-hover > tr {
+  @apply p-2;
+}
+
+.vk-table-hover > tbody > tr:hover {
+  @apply p-2 bg-gray-200;
+}
+
+.vk-table-hover > tr:hover {
+  @apply p-2 bg-gray-200;
+}

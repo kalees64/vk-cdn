@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Alerts */
+
+.vk-alert-red {
+  @apply text-sm text-red-600 font-medium;
+}
+
+.vk-alert-green {
+  @apply text-sm text-green-600 font-medium;
+}
+
+.vk-alert-blue {
+  @apply text-sm text-blue-600 font-medium;
+}
+
+.vk-alert-yellow {
+  @apply text-sm text-yellow-600 font-medium;
+}

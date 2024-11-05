@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Alerts Large */
+
+.vk-alert-red-lg {
+  @apply text-lg text-red-600 font-medium;
+}
+
+.vk-alert-green-lg {
+  @apply text-lg text-green-600 font-medium;
+}
+
+.vk-alert-blue-lg {
+  @apply text-lg text-blue-600 font-medium;
+}
+
+.vk-alert-yellow-lg {
+  @apply text-lg text-yellow-600 font-medium;
+}

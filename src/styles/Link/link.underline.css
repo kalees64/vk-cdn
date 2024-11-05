@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Underlined Links */
+
+.vk-link-u {
+  @apply text-gray-400 hover:text-white underline cursor-pointer;
+}
+
+.vk-link-dark-u {
+  @apply text-gray-100 hover:text-black underline cursor-pointer;
+}
+
+.vk-link-blue-u {
+  @apply text-white hover:text-blue-600 underline cursor-pointer;
+}
+
+.vk-link-cyan-u {
+  @apply text-white hover:text-cyan-500 underline cursor-pointer;
+}
+
+.vk-link-light-u {
+  @apply text-black hover:text-white underline cursor-pointer;
+}
+
+.vk-link-blue-d-u {
+  @apply text-black hover:text-blue-600 underline cursor-pointer;
+}
+
+.vk-link-cyan-d-u {
+  @apply text-black hover:text-cyan-500 underline cursor-pointer;
+}
+
+.vk-link-blue-cd-u {
+  @apply hover:text-black text-blue-600 underline cursor-pointer;
+}
+
+.vk-link-cyan-cd-u {
+  @apply hover:text-black text-cyan-500 underline cursor-pointer;
+}
+
+.vk-link-blue-cw-u {
+  @apply hover:text-white text-blue-600 underline cursor-pointer;
+}
+
+.vk-link-cyan-cw-u {
+  @apply hover:text-white text-cyan-500 underline cursor-pointer;
+}

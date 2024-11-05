@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Input */
+
+.vk-form-input {
+  @apply block w-full bg-transparent  font-[400] text-[1rem] py-[0.375rem] px-3 leading-6 rounded-md border-2 border-gray-500 focus:border-2 focus:outline-0 focus:border-cyan-300 focus:shadow shadow-cyan-300 transition duration-150;
+}
+
+.vk-form-input-invalid {
+  @apply block w-full bg-transparent font-[400] text-[1rem] py-[0.375rem] px-3 leading-6 rounded-md border-2 border-red-500 focus:border-2 focus:outline-0 focus:border-red-600 focus:shadow shadow-red-600 transition duration-150 text-red-600;
+}
+
+.vk-form-input-valid {
+  @apply block w-full bg-transparent font-[400] text-[1rem] py-[0.375rem] px-3 leading-6 rounded-md border-2 border-green-500 focus:border-2 focus:outline-0 focus:border-green-600 focus:shadow shadow-green-600 transition duration-150 text-green-600;
+}

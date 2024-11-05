@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Spinner */
+
+.vk-spinner-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-white border-t-transparent animate-spin;
+}
+
+.vk-spinner-dark-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-black border-t-transparent animate-spin;
+}
+
+.vk-spinner-blue-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-blue-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-red-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-red-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-green-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-green-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-yellow-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-yellow-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-cyan-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-cyan-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-teal-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-teal-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-purple-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-purple-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-lime-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-lime-600 border-t-transparent animate-spin;
+}
+
+.vk-spinner-pink-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-pink-600 border-t-transparent animate-spin;
+}

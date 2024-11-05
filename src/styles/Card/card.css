@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Card */
+
+.vk-card {
+  @apply flex flex-col border rounded-md p-3.5 bg-white break-words shadow;
+}
+
+.vk-card-title {
+  @apply font-bold text-lg;
+}
+
+.vk-card-text {
+  @apply text-sm;
+}
+
+.vk-card-img {
+  @apply w-full;
+}
