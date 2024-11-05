@@ -1,27 +1,43 @@
-# VkCdn
+# VK CSS Framework via CDN
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.8.
+This is a simple, lightweight CSS framework that helps you style your website quickly. You can easily add this framework to your project by including a CDN link in your HTML file.
 
-## Development server
+## Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Installation
 
-## Code scaffolding
+To use this framework, add the following `<link>` tag in the `<head>` section of your HTML file:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```html
+<link rel="stylesheet" href="https://kalees64.github.io/vk-cdn/vk-cdn.css" />
+```
 
-## Build
+To use this framework, add the following `@import url()` tag in the CSS file:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```css
+@import url("https://kalees64.github.io/vk-cdn/vk-cdn.css");
+```
 
-## Running unit tests
+## Documentation
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+visit below link for the documentation
 
-## Running end-to-end tests
+[VK-CSS-DOCUMENT](https://kalees64.github.io/vk-cdn)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+visit below link for samble outputs
 
-## Further help
+[VK-CSS-COMPONENTS](https://vk-cdn.vercel.app/)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Usage/Examples
+
+### Button
+
+```html
+<button class="vk-btn">Button</button>
+```
+
+### Badge
+
+```html
+<button class="vk-badge-red">Badge</button>
+```
