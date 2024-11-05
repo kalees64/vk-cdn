@@ -15,7 +15,7 @@ To use this framework, add the following `<link>` tag in the `<head>` section of
 To use this framework, add the following `@import url()` tag in the CSS file:
 
 ```css
-**@import url("https://kalees64.github.io/vk-cdn/vk-cdn.css");**
+@import url("https://kalees64.github.io/vk-cdn/vk-cdn.css");
 ```
 
 ## Documentation
