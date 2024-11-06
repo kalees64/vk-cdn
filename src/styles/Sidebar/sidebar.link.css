@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Sidebar Links */
+
+.vk-sidebar-link {
+  @apply block w-full rounded p-2 hover:bg-gray-200 text-gray-400 hover:text-black font-[600];
+}
+
+.vk-sidebar-link-dark {
+  @apply block w-full rounded p-2 hover:bg-gray-900 text-gray-300 hover:text-white font-[600];
+}
+
+.vk-sidebar-link-blue {
+  @apply block w-full rounded p-2 hover:bg-blue-500 text-gray-300 hover:text-white font-[600];
+}
+
+.vk-sidebar-link-red {
+  @apply block w-full rounded p-2 hover:bg-red-500 text-gray-300 hover:text-white font-[600];
+}
+
+.vk-sidebar-link-green {
+  @apply block w-full rounded p-2 hover:bg-green-500 text-gray-300 hover:text-white font-[600];
+}

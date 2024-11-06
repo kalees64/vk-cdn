@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Headings */
+
+.vk-h1 {
+  @apply block w-full font-bold text-5xl;
+}
+
+.vk-h2 {
+  @apply block w-full font-bold text-4xl;
+}
+
+.vk-h3 {
+  @apply block w-full font-bold text-3xl;
+}
+
+.vk-h4 {
+  @apply block w-full font-bold text-2xl;
+}
+.vk-h5 {
+  @apply block w-full font-bold text-xl;
+}
+.vk-h6 {
+  @apply block w-full font-bold text-lg;
+}
