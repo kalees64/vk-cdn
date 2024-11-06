@@ -278,3 +278,90 @@ visit below link for samble outputs
 <span class="vk-alert-yellow-box">Alert</span>
 <span class="vk-alert-blue-box">Alert</span>
 ```
+
+### Headings
+
+```html
+<h1 class="vk-h1">Heading 1</h1>
+<h1 class="vk-h2">Heading 2</h1>
+<h1 class="vk-h3">Heading 3</h1>
+<h1 class="vk-h4">Heading 4</h1>
+<h1 class="vk-h5">Heading 5</h1>
+<h1 class="vk-h6">Heading 6</h1>
+```
+
+### Sidebar Links
+
+```html
+<div class="flex gap-2 flex-wrap">
+  <div class="flex flex-col gap-2 bg-white p-3 basis-64 rounded">
+    <a href="#" class="vk-sidebar-link">Home</a>
+    <a href="#" class="vk-sidebar-link">Home</a>
+    <a href="#" class="vk-sidebar-link">Home</a>
+  </div>
+  <div class="flex flex-col gap-2 bg-black p-3 basis-64 rounded">
+    <a href="#" class="vk-sidebar-link-dark">Home</a>
+    <a href="#" class="vk-sidebar-link-dark">Home</a>
+    <a href="#" class="vk-sidebar-link-dark">Home</a>
+  </div>
+  <div class="flex flex-col gap-2 bg-blue-600 p-3 basis-64 rounded">
+    <a href="#" class="vk-sidebar-link-blue">Home</a>
+    <a href="#" class="vk-sidebar-link-blue">Home</a>
+    <a href="#" class="vk-sidebar-link-blue">Home</a>
+  </div>
+  <div class="flex flex-col gap-2 bg-red-600 p-3 basis-64 rounded">
+    <a href="#" class="vk-sidebar-link-red">Home</a>
+    <a href="#" class="vk-sidebar-link-red">Home</a>
+    <a href="#" class="vk-sidebar-link-red">Home</a>
+  </div>
+  <div class="flex flex-col gap-2 bg-green-600 p-3 basis-64 rounded">
+    <a href="#" class="vk-sidebar-link-green">Home</a>
+    <a href="#" class="vk-sidebar-link-green">Home</a>
+    <a href="#" class="vk-sidebar-link-green">Home</a>
+  </div>
+</div>
+```
+
+### Navbar Brand
+
+```html
+<div class="flex gap-2 flex-wrap">
+  <h1 class="vk-nav-brand">Brand</h1>
+  <h1 class="vk-nav-brand-light">Brand</h1>
+  <h1 class="vk-nav-brand-red">Brand</h1>
+  <h1 class="vk-nav-brand-blue">Brand</h1>
+  <h1 class="vk-nav-brand-green">Brand</h1>
+</div>
+<div class="flex gap-2 flex-wrap">
+  <h1 class="vk-nav-brand-md">Brand</h1>
+  <h1 class="vk-nav-brand-light-md">Brand</h1>
+  <h1 class="vk-nav-brand-red-md">Brand</h1>
+  <h1 class="vk-nav-brand-blue-md">Brand</h1>
+  <h1 class="vk-nav-brand-green-md">Brand</h1>
+</div>
+```
+
+### Navbar Logo
+
+```html
+<div class="flex gap-2 flex-wrap items-baseline">
+  <img src="favicon.png" alt="Logo" class="vk-logo" />
+  <img src="favicon.png" alt="Logo" class="vk-logo-md" />
+  <img src="favicon.png" alt="Logo" class="vk-logo-lg" />
+  <img src="favicon.png" alt="Logo" class="vk-logo-xl" />
+</div>
+<br />
+<div class="flex gap-2 flex-wrap items-baseline">
+  <img src="rect.png" alt="Logo" class="vk-logo-rect" />
+  <img src="rect.png" alt="Logo" class="vk-logo-rect-md" />
+  <img src="rect.png" alt="Logo" class="vk-logo-rect-lg" />
+  <img src="rect.png" alt="Logo" class="vk-logo-rect-xl" />
+</div>
+<br />
+<div class="flex gap-2 flex-wrap items-baseline">
+  <img src="square.png" alt="Logo" class="vk-logo-round" />
+  <img src="square.png" alt="Logo" class="vk-logo-round-md" />
+  <img src="square.png" alt="Logo" class="vk-logo-round-lg" />
+  <img src="square.png" alt="Logo" class="vk-logo-round-xl" />
+</div>
+```

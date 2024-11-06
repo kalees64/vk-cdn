@@ -61,3 +61,5 @@
 /* Navbar */
 
 @import "./styles/Navbar/navbar.brand.css";
+@import "./styles/Navbar/navbar.brand.medium.css";
+@import "./styles/Navbar/navbar.logo.css";

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Nav Brand Medium*/
+
+.vk-nav-brand-md {
+  @apply block font-semibold text-xl drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-light-md {
+  @apply block font-semibold text-xl text-white drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-blue-md {
+  @apply block font-semibold text-xl text-blue-600 drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-red-md {
+  @apply block font-semibold text-xl text-red-600 drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-green-md {
+  @apply block font-semibold text-xl text-green-600 drop-shadow cursor-pointer;
+}

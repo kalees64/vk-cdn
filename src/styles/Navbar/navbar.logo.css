@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Navbar logo */
+
+.vk-logo {
+  @apply block bg-transparent cursor-pointer size-7;
+}
+
+.vk-logo-md {
+  @apply block bg-transparent cursor-pointer size-9;
+}
+
+.vk-logo-lg {
+  @apply block bg-transparent cursor-pointer size-12;
+}
+
+.vk-logo-xl {
+  @apply block bg-transparent cursor-pointer drop-shadow size-16;
+}
+
+.vk-logo-rect {
+  @apply block bg-transparent cursor-pointer h-7 w-14;
+}
+
+.vk-logo-rect-md {
+  @apply block bg-transparent cursor-pointer h-9 w-20;
+}
+
+.vk-logo-rect-lg {
+  @apply block bg-transparent cursor-pointer h-12 w-28;
+}
+
+.vk-logo-rect-xl {
+  @apply block bg-transparent cursor-pointer h-16 w-40;
+}
+
+.vk-logo-round {
+  @apply block bg-transparent cursor-pointer rounded-full size-7;
+}
+
+.vk-logo-round-md {
+  @apply block bg-transparent cursor-pointer rounded-full size-9;
+}
+
+.vk-logo-round-lg {
+  @apply block bg-transparent cursor-pointer rounded-full size-12;
+}
+
+.vk-logo-round-xl {
+  @apply block bg-transparent cursor-pointer rounded-full size-16;
+}

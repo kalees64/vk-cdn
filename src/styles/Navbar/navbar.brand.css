@@ -3,3 +3,23 @@
 @tailwind utilities;
 
 /* Nav Brand */
+
+.vk-nav-brand {
+  @apply block font-semibold text-lg drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-light {
+  @apply block font-semibold text-lg text-white drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-blue {
+  @apply block font-semibold text-lg text-blue-600 drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-red {
+  @apply block font-semibold text-lg text-red-600 drop-shadow cursor-pointer;
+}
+
+.vk-nav-brand-green {
+  @apply block font-semibold text-lg text-green-600 drop-shadow cursor-pointer;
+}
