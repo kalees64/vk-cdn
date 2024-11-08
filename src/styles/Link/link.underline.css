@@ -8,6 +8,10 @@
   @apply text-gray-400 hover:text-white underline cursor-pointer;
 }
 
+.vk-link-default-u {
+  @apply text-gray-400 hover:text-white underline cursor-pointer;
+}
+
 .vk-link-dark-u {
   @apply text-gray-100 hover:text-black underline cursor-pointer;
 }
