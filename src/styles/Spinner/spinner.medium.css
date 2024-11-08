@@ -8,6 +8,10 @@
   @apply size-7 rounded-full bg-transparent border-[3.5px] border-white border-t-transparent animate-spin;
 }
 
+.vk-spinner-default-md {
+  @apply size-7 rounded-full bg-transparent border-[3.5px] border-white border-t-transparent animate-spin;
+}
+
 .vk-spinner-dark-md {
   @apply size-7 rounded-full bg-transparent border-[3.5px] border-black border-t-transparent animate-spin;
 }
