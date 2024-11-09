@@ -16,11 +16,23 @@
   @apply block bg-transparent cursor-pointer size-9;
 }
 
+.vk-logo-default-md {
+  @apply block bg-transparent cursor-pointer size-9;
+}
+
 .vk-logo-lg {
   @apply block bg-transparent cursor-pointer size-12;
 }
 
+.vk-logo-default-lg {
+  @apply block bg-transparent cursor-pointer size-12;
+}
+
 .vk-logo-xl {
+  @apply block bg-transparent cursor-pointer drop-shadow size-16;
+}
+
+.vk-logo-default-xl {
   @apply block bg-transparent cursor-pointer drop-shadow size-16;
 }
 
