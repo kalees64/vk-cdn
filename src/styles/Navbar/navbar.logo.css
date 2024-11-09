@@ -8,6 +8,10 @@
   @apply block bg-transparent cursor-pointer size-7;
 }
 
+.vk-logo-default {
+  @apply block bg-transparent cursor-pointer size-7;
+}
+
 .vk-logo-md {
   @apply block bg-transparent cursor-pointer size-9;
 }
@@ -24,6 +28,10 @@
   @apply block bg-transparent cursor-pointer h-7 w-14;
 }
 
+.vk-logo-rect-default {
+  @apply block bg-transparent cursor-pointer h-7 w-14;
+}
+
 .vk-logo-rect-md {
   @apply block bg-transparent cursor-pointer h-9 w-20;
 }
@@ -37,6 +45,10 @@
 }
 
 .vk-logo-round {
+  @apply block bg-transparent cursor-pointer rounded-full size-7;
+}
+
+.vk-logo-round-default {
   @apply block bg-transparent cursor-pointer rounded-full size-7;
 }
 

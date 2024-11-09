@@ -8,6 +8,10 @@
   @apply block font-semibold text-xl drop-shadow cursor-pointer;
 }
 
+.vk-nav-brand-default-md {
+  @apply block font-semibold text-xl drop-shadow cursor-pointer;
+}
+
 .vk-nav-brand-light-md {
   @apply block font-semibold text-xl text-white drop-shadow cursor-pointer;
 }
