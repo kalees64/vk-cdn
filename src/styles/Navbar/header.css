@@ -1,0 +1,213 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Header */
+
+.vk-header {
+  @apply w-full flex py-1 px-2 bg-white flex-col;
+}
+
+.vk-header > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-flex {
+  @apply flex items-center gap-2;
+}
+
+.vk-header-username {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu {
+  @apply hover:bg-gray-200 p-1;
+}
+
+.vk-header-default {
+  @apply w-full flex py-1 px-2 bg-white flex-col;
+}
+
+.vk-header-username-default {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-default {
+  @apply hover:bg-gray-200 p-1;
+}
+
+.vk-header-blue {
+  @apply w-full flex py-1 px-2 bg-blue-600 flex-col;
+}
+
+.vk-header-blue > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-blue {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-blue {
+  @apply hover:bg-blue-200 p-1 text-gray-200 hover:text-blue-600;
+}
+
+.vk-header-red {
+  @apply w-full flex py-1 px-2 bg-red-600 flex-col;
+}
+
+.vk-header-red > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-red {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-red {
+  @apply hover:bg-red-200 p-1 text-gray-200 hover:text-red-600;
+}
+
+.vk-header-green {
+  @apply w-full flex py-1 px-2 bg-green-600 flex-col;
+}
+
+.vk-header-green > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-green {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-green {
+  @apply hover:bg-green-200 p-1 text-gray-200 hover:text-green-600;
+}
+
+.vk-header-yellow {
+  @apply w-full flex py-1 px-2 bg-yellow-400 flex-col;
+}
+
+.vk-header-yellow > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-yellow {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-yellow {
+  @apply hover:bg-yellow-200 p-1 text-gray-200 hover:text-yellow-600;
+}
+
+.vk-header-orange {
+  @apply w-full flex py-1 px-2 bg-orange-600 flex-col;
+}
+
+.vk-header-orange > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-orange {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-orange {
+  @apply hover:bg-orange-200 p-1 text-gray-200 hover:text-orange-600;
+}
+
+.vk-header-cyan {
+  @apply w-full flex py-1 px-2 bg-cyan-600 flex-col;
+}
+
+.vk-header-cyan > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-cyan {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-cyan {
+  @apply hover:bg-cyan-200 p-1 text-gray-200 hover:text-cyan-600;
+}
+
+.vk-header-teal {
+  @apply w-full flex py-1 px-2 bg-teal-600 flex-col;
+}
+
+.vk-header-teal > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-teal {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-teal {
+  @apply hover:bg-teal-200 p-1 text-gray-200 hover:text-teal-600;
+}
+
+.vk-header-pink {
+  @apply w-full flex py-1 px-2 bg-pink-600 flex-col;
+}
+
+.vk-header-pink > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-pink {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-pink {
+  @apply hover:bg-pink-200 p-1 text-gray-200 hover:text-pink-600;
+}
+
+.vk-header-purple {
+  @apply w-full flex py-1 px-2 bg-purple-600 flex-col;
+}
+
+.vk-header-purple > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-purple {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-purple {
+  @apply hover:bg-purple-200 p-1 text-gray-200 hover:text-purple-600;
+}
+
+.vk-header-lime {
+  @apply w-full flex py-1 px-2 bg-lime-600 flex-col;
+}
+
+.vk-header-lime > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-lime {
+  @apply block text-black font-medium;
+}
+
+.vk-header-navmenu-lime {
+  @apply hover:bg-lime-200 p-1 text-gray-200 hover:text-lime-600;
+}
+
+.vk-header-dark {
+  @apply w-full flex py-1 px-2 bg-gray-900 flex-col;
+}
+
+.vk-header-dark > nav {
+  @apply w-full flex justify-between;
+}
+
+.vk-header-username-dark {
+  @apply block text-white font-medium;
+}
+
+.vk-header-navmenu-dark {
+  @apply hover:bg-gray-500 p-1 text-gray-200 hover:text-white;
+}

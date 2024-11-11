@@ -5,7 +5,11 @@
 /* Card */
 
 .vk-card {
-  @apply flex flex-col border rounded-md p-3.5 bg-white break-words shadow;
+  @apply flex flex-col border border-white rounded-md p-3.5 bg-white break-words shadow;
+}
+
+.vk-card-default {
+  @apply flex flex-col border border-white rounded-md p-3.5 bg-white break-words shadow;
 }
 
 .vk-card-title {
@@ -18,4 +22,44 @@
 
 .vk-card-img {
   @apply w-full;
+}
+
+.vk-card-blue {
+  @apply flex flex-col border border-blue-600 rounded-md p-3.5 bg-blue-600 break-words shadow;
+}
+
+.vk-card-red {
+  @apply flex flex-col border border-red-600 rounded-md p-3.5 bg-red-600 break-words shadow;
+}
+
+.vk-card-green {
+  @apply flex flex-col border border-green-600 rounded-md p-3.5 bg-green-600 break-words shadow;
+}
+
+.vk-card-yellow {
+  @apply flex flex-col border border-yellow-400 rounded-md p-3.5 bg-yellow-400 break-words shadow;
+}
+
+.vk-card-orange {
+  @apply flex flex-col border border-orange-600 rounded-md p-3.5 bg-orange-600 break-words shadow;
+}
+
+.vk-card-pink {
+  @apply flex flex-col border border-pink-600 rounded-md p-3.5 bg-pink-600 break-words shadow;
+}
+
+.vk-card-teal {
+  @apply flex flex-col border border-teal-600 rounded-md p-3.5 bg-teal-600 break-words shadow;
+}
+
+.vk-card-purple {
+  @apply flex flex-col border border-purple-600 rounded-md p-3.5 bg-purple-600 break-words shadow;
+}
+
+.vk-card-lime {
+  @apply flex flex-col border border-lime-600 rounded-md p-3.5 bg-lime-600 break-words shadow;
+}
+
+.vk-card-dark {
+  @apply flex flex-col border border-gray-900 text-white rounded-md p-3.5 bg-gray-900 break-words shadow;
 }

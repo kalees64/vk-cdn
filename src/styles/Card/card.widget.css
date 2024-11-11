@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Card Widget */
+
+.vk-card-widget {
+  @apply flex flex-col gap-2 border border-white rounded-lg p-5 bg-white break-words shadow;
+}
+
+.vk-card-widget-value {
+  @apply block w-full text-end font-bold text-3xl;
+}
+
+.vk-card-widget-text {
+  @apply block w-full text-end font-semibold text-xl;
+}
+
+.vk-card-widget-default {
+  @apply flex flex-col gap-2 border border-white rounded-lg p-5 bg-white break-words shadow;
+}
+
+.vk-card-widget-blue {
+  @apply flex flex-col gap-2 border border-blue-600 rounded-lg p-5 bg-blue-600 break-words shadow;
+}
+
+.vk-card-widget-red {
+  @apply flex flex-col gap-2 border border-red-600 rounded-lg p-5 bg-red-600 break-words shadow;
+}
+
+.vk-card-widget-green {
+  @apply flex flex-col gap-2 border border-green-600 rounded-lg p-5 bg-green-600 break-words shadow;
+}
+
+.vk-card-widget-yellow {
+  @apply flex flex-col gap-2 border border-yellow-400 rounded-lg p-5 bg-yellow-400 break-words shadow;
+}
+
+.vk-card-widget-orange {
+  @apply flex flex-col gap-2 border border-orange-600 rounded-lg p-5 bg-orange-600 break-words shadow;
+}
+
+.vk-card-widget-pink {
+  @apply flex flex-col gap-2 border border-pink-600 rounded-lg p-5 bg-pink-600 break-words shadow;
+}
+
+.vk-card-widget-teal {
+  @apply flex flex-col gap-2 border border-teal-600 rounded-lg p-5 bg-teal-600 break-words shadow;
+}
+
+.vk-card-widget-purple {
+  @apply flex flex-col gap-2 border border-purple-600 rounded-lg p-5 bg-purple-600 break-words shadow;
+}
+
+.vk-card-widget-lime {
+  @apply flex flex-col gap-2 border border-lime-600 rounded-lg p-5 bg-lime-600 break-words shadow;
+}
+
+.vk-card-widget-dark {
+  @apply flex flex-col gap-2 border border-gray-900 text-white rounded-lg p-5 bg-gray-900 break-words shadow;
+}

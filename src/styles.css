@@ -16,6 +16,9 @@
 /* Card */
 
 @import "./styles/Card/card.css";
+@import "./styles/Card/card.widget.css";
+@import "./styles/Card/card.widget.md.css";
+@import "./styles/Card/card.with.actons.css";
 
 /* Link */
 
@@ -63,3 +66,4 @@
 @import "./styles/Navbar/navbar.brand.css";
 @import "./styles/Navbar/navbar.brand.medium.css";
 @import "./styles/Navbar/navbar.logo.css";
+@import "./styles/Navbar/header.css";
