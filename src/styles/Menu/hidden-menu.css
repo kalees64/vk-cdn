@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hidden Menu */
+
+.vk-hidden-menu {
+  @apply absolute right-10 bg-white w-40  rounded-lg border p-2;
+}

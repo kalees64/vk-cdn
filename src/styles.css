@@ -67,3 +67,7 @@
 @import "./styles/Navbar/navbar.brand.medium.css";
 @import "./styles/Navbar/navbar.logo.css";
 @import "./styles/Navbar/header.css";
+
+/* Hidden Menu */
+@import "./styles/Menu/hidden-menu.css";
+@import "./styles/Menu/hidden-menu.item.css";
