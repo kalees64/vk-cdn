@@ -28,6 +28,10 @@
   @apply w-full flex py-1 px-2 bg-white flex-col;
 }
 
+.vk-header-default > nav {
+  @apply w-full flex justify-between;
+}
+
 .vk-header-username-default {
   @apply block text-black font-medium;
 }
