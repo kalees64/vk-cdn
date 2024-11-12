@@ -21,7 +21,7 @@
 }
 
 .vk-header-navmenu {
-  @apply hover:bg-gray-200 p-1;
+  @apply hover:bg-gray-200 p-1 block w-full;
 }
 
 .vk-header-default {
@@ -33,7 +33,7 @@
 }
 
 .vk-header-navmenu-default {
-  @apply hover:bg-gray-200 p-1;
+  @apply hover:bg-gray-200 p-1 block w-full;
 }
 
 .vk-header-blue {
@@ -49,7 +49,7 @@
 }
 
 .vk-header-navmenu-blue {
-  @apply hover:bg-blue-200 p-1 text-gray-200 hover:text-blue-600;
+  @apply hover:bg-blue-200 p-1 block w-full text-gray-200 hover:text-blue-600;
 }
 
 .vk-header-red {
@@ -65,7 +65,7 @@
 }
 
 .vk-header-navmenu-red {
-  @apply hover:bg-red-200 p-1 text-gray-200 hover:text-red-600;
+  @apply hover:bg-red-200 p-1 block w-full text-gray-200 hover:text-red-600;
 }
 
 .vk-header-green {
@@ -81,7 +81,7 @@
 }
 
 .vk-header-navmenu-green {
-  @apply hover:bg-green-200 p-1 text-gray-200 hover:text-green-600;
+  @apply hover:bg-green-200 p-1 block w-full text-gray-200 hover:text-green-600;
 }
 
 .vk-header-yellow {
@@ -97,7 +97,7 @@
 }
 
 .vk-header-navmenu-yellow {
-  @apply hover:bg-yellow-200 p-1 text-gray-200 hover:text-yellow-600;
+  @apply hover:bg-yellow-200 p-1 block w-full text-gray-200 hover:text-yellow-600;
 }
 
 .vk-header-orange {
@@ -113,7 +113,7 @@
 }
 
 .vk-header-navmenu-orange {
-  @apply hover:bg-orange-200 p-1 text-gray-200 hover:text-orange-600;
+  @apply hover:bg-orange-200 p-1 block w-full text-gray-200 hover:text-orange-600;
 }
 
 .vk-header-cyan {
@@ -129,7 +129,7 @@
 }
 
 .vk-header-navmenu-cyan {
-  @apply hover:bg-cyan-200 p-1 text-gray-200 hover:text-cyan-600;
+  @apply hover:bg-cyan-200 p-1 block w-full text-gray-200 hover:text-cyan-600;
 }
 
 .vk-header-teal {
@@ -145,7 +145,7 @@
 }
 
 .vk-header-navmenu-teal {
-  @apply hover:bg-teal-200 p-1 text-gray-200 hover:text-teal-600;
+  @apply hover:bg-teal-200 p-1 block w-full text-gray-200 hover:text-teal-600;
 }
 
 .vk-header-pink {
@@ -161,7 +161,7 @@
 }
 
 .vk-header-navmenu-pink {
-  @apply hover:bg-pink-200 p-1 text-gray-200 hover:text-pink-600;
+  @apply hover:bg-pink-200 p-1 block w-full text-gray-200 hover:text-pink-600;
 }
 
 .vk-header-purple {
@@ -177,7 +177,7 @@
 }
 
 .vk-header-navmenu-purple {
-  @apply hover:bg-purple-200 p-1 text-gray-200 hover:text-purple-600;
+  @apply hover:bg-purple-200 p-1 block w-full text-gray-200 hover:text-purple-600;
 }
 
 .vk-header-lime {
@@ -193,7 +193,7 @@
 }
 
 .vk-header-navmenu-lime {
-  @apply hover:bg-lime-200 p-1 text-gray-200 hover:text-lime-600;
+  @apply hover:bg-lime-200 p-1 block w-full text-gray-200 hover:text-lime-600;
 }
 
 .vk-header-dark {
@@ -209,5 +209,5 @@
 }
 
 .vk-header-navmenu-dark {
-  @apply hover:bg-gray-500 p-1 text-gray-200 hover:text-white;
+  @apply hover:bg-gray-500 p-1 block w-full text-gray-200 hover:text-white;
 }
