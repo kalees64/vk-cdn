@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Accordian*/
+
+.vk-accordion {
+  @apply p-2 bg-white w-full rounded;
+}
+
+.vk-accordion > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-default {
+  @apply p-2 bg-inherit w-full rounded hover:bg-white/50;
+}
+
+.vk-accordion-default > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}

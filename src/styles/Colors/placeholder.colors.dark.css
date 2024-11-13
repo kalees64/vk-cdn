@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Placeholder Dark Colors */
+
+.vk-placeholder-body-dark {
+  @apply placeholder-slate-400;
+}
+
+.vk-placeholder-white-dark {
+  @apply placeholder-white;
+}
+
+.vk-placeholder-black-dark {
+  @apply placeholder-black;
+}
+
+.vk-placeholder-blue-dark {
+  @apply placeholder-blue-800;
+}
+
+.vk-placeholder-red-dark {
+  @apply placeholder-red-800;
+}
+
+.vk-placeholder-green-dark {
+  @apply placeholder-green-800;
+}
+
+.vk-placeholder-orange-dark {
+  @apply placeholder-orange-800;
+}
+
+.vk-placeholder-pink-dark {
+  @apply placeholder-pink-800;
+}
+
+.vk-placeholder-purple-dark {
+  @apply placeholder-purple-800;
+}
+
+.vk-placeholder-teal-dark {
+  @apply placeholder-teal-800;
+}
+
+.vk-placeholder-lime-dark {
+  @apply placeholder-lime-800;
+}
+
+.vk-placeholder-rose-dark {
+  @apply placeholder-rose-800;
+}
+
+.vk-placeholder-violet-dark {
+  @apply placeholder-violet-800;
+}
+
+.vk-placeholder-gray-dark {
+  @apply placeholder-gray-800;
+}
+
+.vk-placeholder-yellow-dark {
+  @apply placeholder-yellow-600;
+}
+
+.vk-placeholder-sky-dark {
+  @apply placeholder-sky-600;
+}
+
+.vk-placeholder-cyan-dark {
+  @apply placeholder-cyan-600;
+}

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background Dark Colors */
+
+.vk-bg-body-dark {
+  @apply bg-slate-400;
+}
+
+.vk-bg-white-dark {
+  @apply bg-white;
+}
+
+.vk-bg-black-dark {
+  @apply bg-black;
+}
+
+.vk-bg-blue-dark {
+  @apply bg-blue-800;
+}
+
+.vk-bg-red-dark {
+  @apply bg-red-800;
+}
+
+.vk-bg-green-dark {
+  @apply bg-green-800;
+}
+
+.vk-bg-orange-dark {
+  @apply bg-orange-800;
+}
+
+.vk-bg-pink-dark {
+  @apply bg-pink-800;
+}
+
+.vk-bg-purple-dark {
+  @apply bg-purple-800;
+}
+
+.vk-bg-teal-dark {
+  @apply bg-teal-800;
+}
+
+.vk-bg-lime-dark {
+  @apply bg-lime-800;
+}
+
+.vk-bg-rose-dark {
+  @apply bg-rose-800;
+}
+
+.vk-bg-violet-dark {
+  @apply bg-violet-800;
+}
+
+.vk-bg-gray-dark {
+  @apply bg-gray-800;
+}
+
+.vk-bg-yellow-dark {
+  @apply bg-yellow-600;
+}
+
+.vk-bg-sky-dark {
+  @apply bg-sky-600;
+}
+
+.vk-bg-cyan-dark {
+  @apply bg-cyan-600;
+}

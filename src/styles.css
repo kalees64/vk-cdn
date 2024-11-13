@@ -60,6 +60,7 @@
 /* Sidebar */
 
 @import "./styles/Sidebar/sidebar.link.css";
+@import "./styles/Sidebar/sidebar.css";
 
 /* Navbar */
 
@@ -71,3 +72,31 @@
 /* Hidden Menu */
 @import "./styles/Menu/hidden-menu.css";
 @import "./styles/Menu/hidden-menu.item.css";
+
+/* Colors */
+
+@import "./styles/Colors/accent.colors.css";
+@import "./styles/Colors/background.colors.css";
+@import "./styles/Colors/border.colors.css";
+@import "./styles/Colors/placeholder.colors.css";
+@import "./styles/Colors/text.colors.css";
+
+@import "./styles/Colors/accent.colors.light.css";
+@import "./styles/Colors/background.colors.light.css";
+@import "./styles/Colors/border.colors.light.css";
+@import "./styles/Colors/placeholder.colors.light.css";
+@import "./styles/Colors/text.colors.light.css";
+
+@import "./styles/Colors/accent.colors.dark.css";
+@import "./styles/Colors/background.colors.dark.css";
+@import "./styles/Colors/border.colors.dark.css";
+@import "./styles/Colors/placeholder.colors.dark.css";
+@import "./styles/Colors/text.colors.dark.css";
+
+/* Gradient Colors */
+
+@import "./styles/Colors/background.gradient.css";
+
+/* Accordian */
+
+@import "./styles/Accordian/accordian.css";

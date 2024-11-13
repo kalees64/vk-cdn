@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background Light Colors */
+
+.vk-bg-body-light {
+  @apply bg-slate-200;
+}
+
+.vk-bg-white-light {
+  @apply bg-white/60;
+}
+
+.vk-bg-black-light {
+  @apply bg-black/50;
+}
+
+.vk-bg-blue-light {
+  @apply bg-blue-400;
+}
+
+.vk-bg-red-light {
+  @apply bg-red-400;
+}
+
+.vk-bg-green-light {
+  @apply bg-green-400;
+}
+
+.vk-bg-orange-light {
+  @apply bg-orange-400;
+}
+
+.vk-bg-pink-light {
+  @apply bg-pink-400;
+}
+
+.vk-bg-purple-light {
+  @apply bg-purple-400;
+}
+
+.vk-bg-teal-light {
+  @apply bg-teal-400;
+}
+
+.vk-bg-lime-light {
+  @apply bg-lime-400;
+}
+
+.vk-bg-rose-light {
+  @apply bg-rose-400;
+}
+
+.vk-bg-violet-light {
+  @apply bg-violet-400;
+}
+
+.vk-bg-gray-light {
+  @apply bg-gray-400;
+}
+
+.vk-bg-yellow-light {
+  @apply bg-yellow-300;
+}
+
+.vk-bg-sky-light {
+  @apply bg-sky-300;
+}
+
+.vk-bg-cyan-light {
+  @apply bg-cyan-300;
+}

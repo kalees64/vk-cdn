@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Placeholder Light Colors */
+
+.vk-placeholder-body-light {
+  @apply placeholder-slate-200;
+}
+
+.vk-placeholder-white-light {
+  @apply placeholder-white/60;
+}
+
+.vk-placeholder-black-light {
+  @apply placeholder-black/50;
+}
+
+.vk-placeholder-blue-light {
+  @apply placeholder-blue-400;
+}
+
+.vk-placeholder-red-light {
+  @apply placeholder-red-400;
+}
+
+.vk-placeholder-green-light {
+  @apply placeholder-green-400;
+}
+
+.vk-placeholder-orange-light {
+  @apply placeholder-orange-400;
+}
+
+.vk-placeholder-pink-light {
+  @apply placeholder-pink-400;
+}
+
+.vk-placeholder-purple-light {
+  @apply placeholder-purple-400;
+}
+
+.vk-placeholder-teal-light {
+  @apply placeholder-teal-400;
+}
+
+.vk-placeholder-lime-light {
+  @apply placeholder-lime-400;
+}
+
+.vk-placeholder-rose-light {
+  @apply placeholder-rose-400;
+}
+
+.vk-placeholder-violet-light {
+  @apply placeholder-violet-400;
+}
+
+.vk-placeholder-gray-light {
+  @apply placeholder-gray-400;
+}
+
+.vk-placeholder-yellow-light {
+  @apply placeholder-yellow-300;
+}
+
+.vk-placeholder-sky-light {
+  @apply placeholder-sky-300;
+}
+
+.vk-placeholder-cyan-light {
+  @apply placeholder-cyan-300;
+}

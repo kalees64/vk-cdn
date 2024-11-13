@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Text Colors */
+
+.vk-text-body {
+  @apply text-slate-300;
+}
+
+.vk-text-white {
+  @apply text-white;
+}
+
+.vk-text-black {
+  @apply text-black;
+}
+
+.vk-text-blue {
+  @apply text-blue-600;
+}
+
+.vk-text-red {
+  @apply text-red-600;
+}
+
+.vk-text-green {
+  @apply text-green-600;
+}
+
+.vk-text-orange {
+  @apply text-orange-600;
+}
+
+.vk-text-pink {
+  @apply text-pink-600;
+}
+
+.vk-text-purple {
+  @apply text-purple-600;
+}
+
+.vk-text-teal {
+  @apply text-teal-600;
+}
+
+.vk-text-lime {
+  @apply text-lime-600;
+}
+
+.vk-text-rose {
+  @apply text-rose-600;
+}
+
+.vk-text-violet {
+  @apply text-violet-600;
+}
+
+.vk-text-gray {
+  @apply text-gray-600;
+}
+
+.vk-text-yellow {
+  @apply text-yellow-400;
+}
+
+.vk-text-sky {
+  @apply text-sky-400;
+}
+
+.vk-text-cyan {
+  @apply text-cyan-400;
+}

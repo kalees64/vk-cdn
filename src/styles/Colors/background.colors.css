@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Background Colors */
+
+.vk-bg-body {
+  @apply bg-slate-300;
+}
+
+.vk-bg-white {
+  @apply bg-white;
+}
+
+.vk-bg-black {
+  @apply bg-black;
+}
+
+.vk-bg-blue {
+  @apply bg-blue-600;
+}
+
+.vk-bg-red {
+  @apply bg-red-600;
+}
+
+.vk-bg-green {
+  @apply bg-green-600;
+}
+
+.vk-bg-orange {
+  @apply bg-orange-600;
+}
+
+.vk-bg-pink {
+  @apply bg-pink-600;
+}
+
+.vk-bg-purple {
+  @apply bg-purple-600;
+}
+
+.vk-bg-teal {
+  @apply bg-teal-600;
+}
+
+.vk-bg-lime {
+  @apply bg-lime-600;
+}
+
+.vk-bg-rose {
+  @apply bg-rose-600;
+}
+
+.vk-bg-violet {
+  @apply bg-violet-600;
+}
+
+.vk-bg-gray {
+  @apply bg-gray-600;
+}
+
+.vk-bg-yellow {
+  @apply bg-yellow-400;
+}
+
+.vk-bg-sky {
+  @apply bg-sky-400;
+}
+
+.vk-bg-cyan {
+  @apply bg-cyan-400;
+}

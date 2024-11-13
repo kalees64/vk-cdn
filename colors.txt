@@ -1,0 +1,17 @@
+1. White
+2. Black
+3. Blue
+4. Red
+5. Green
+6. Yellow
+7. Orange
+8. Pink
+9. Purple
+10. Cyan
+11. Lime
+12. Teal
+13. Sky
+14. Rose
+15. Violet
+16. Gray
+17. Body - Slate

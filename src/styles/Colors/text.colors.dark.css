@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Text Dark Colors */
+
+.vk-text-body-dark {
+  @apply text-slate-400;
+}
+
+.vk-text-white-dark {
+  @apply text-white;
+}
+
+.vk-text-black-dark {
+  @apply text-black;
+}
+
+.vk-text-blue-dark {
+  @apply text-blue-800;
+}
+
+.vk-text-red-dark {
+  @apply text-red-800;
+}
+
+.vk-text-green-dark {
+  @apply text-green-800;
+}
+
+.vk-text-orange-dark {
+  @apply text-orange-800;
+}
+
+.vk-text-pink-dark {
+  @apply text-pink-800;
+}
+
+.vk-text-purple-dark {
+  @apply text-purple-800;
+}
+
+.vk-text-teal-dark {
+  @apply text-teal-800;
+}
+
+.vk-text-lime-dark {
+  @apply text-lime-800;
+}
+
+.vk-text-rose-dark {
+  @apply text-rose-800;
+}
+
+.vk-text-violet-dark {
+  @apply text-violet-800;
+}
+
+.vk-text-gray-dark {
+  @apply text-gray-800;
+}
+
+.vk-text-yellow-dark {
+  @apply text-yellow-600;
+}
+
+.vk-text-sky-dark {
+  @apply text-sky-600;
+}
+
+.vk-text-cyan-dark {
+  @apply text-cyan-600;
+}

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Accent Dark Colors */
+
+.vk-accent-body-dark {
+  @apply accent-slate-400;
+}
+
+.vk-accent-white-dark {
+  @apply accent-white;
+}
+
+.vk-accent-black-dark {
+  @apply accent-black;
+}
+
+.vk-accent-blue-dark {
+  @apply accent-blue-800;
+}
+
+.vk-accent-red-dark {
+  @apply accent-red-800;
+}
+
+.vk-accent-green-dark {
+  @apply accent-green-800;
+}
+
+.vk-accent-orange-dark {
+  @apply accent-orange-800;
+}
+
+.vk-accent-pink-dark {
+  @apply accent-pink-800;
+}
+
+.vk-accent-purple-dark {
+  @apply accent-purple-800;
+}
+
+.vk-accent-teal-dark {
+  @apply accent-teal-800;
+}
+
+.vk-accent-lime-dark {
+  @apply accent-lime-800;
+}
+
+.vk-accent-rose-dark {
+  @apply accent-rose-800;
+}
+
+.vk-accent-violet-dark {
+  @apply accent-violet-800;
+}
+
+.vk-accent-gray-dark {
+  @apply accent-gray-800;
+}
+
+.vk-accent-yellow-dark {
+  @apply accent-yellow-600;
+}
+
+.vk-accent-sky-dark {
+  @apply accent-sky-600;
+}
+
+.vk-accent-cyan-dark {
+  @apply accent-cyan-600;
+}

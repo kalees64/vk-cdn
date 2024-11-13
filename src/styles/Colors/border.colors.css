@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Border Colors */
+
+.vk-border-body {
+  @apply border-slate-300;
+}
+
+.vk-border-white {
+  @apply border-white;
+}
+
+.vk-border-black {
+  @apply border-black;
+}
+
+.vk-border-blue {
+  @apply border-blue-600;
+}
+
+.vk-border-red {
+  @apply border-red-600;
+}
+
+.vk-border-green {
+  @apply border-green-600;
+}
+
+.vk-border-orange {
+  @apply border-orange-600;
+}
+
+.vk-border-pink {
+  @apply border-pink-600;
+}
+
+.vk-border-purple {
+  @apply border-purple-600;
+}
+
+.vk-border-teal {
+  @apply border-teal-600;
+}
+
+.vk-border-lime {
+  @apply border-lime-600;
+}
+
+.vk-border-rose {
+  @apply border-rose-600;
+}
+
+.vk-border-violet {
+  @apply border-violet-600;
+}
+
+.vk-border-gray {
+  @apply border-gray-600;
+}
+
+.vk-border-yellow {
+  @apply border-yellow-400;
+}
+
+.vk-border-sky {
+  @apply border-sky-400;
+}
+
+.vk-border-cyan {
+  @apply border-cyan-400;
+}

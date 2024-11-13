@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Placeholder Colors */
+
+.vk-placeholder-body {
+  @apply placeholder-slate-300;
+}
+
+.vk-placeholder-white {
+  @apply placeholder-white;
+}
+
+.vk-placeholder-black {
+  @apply placeholder-black;
+}
+
+.vk-placeholder-blue {
+  @apply placeholder-blue-600;
+}
+
+.vk-placeholder-red {
+  @apply placeholder-red-600;
+}
+
+.vk-placeholder-green {
+  @apply placeholder-green-600;
+}
+
+.vk-placeholder-orange {
+  @apply placeholder-orange-600;
+}
+
+.vk-placeholder-pink {
+  @apply placeholder-pink-600;
+}
+
+.vk-placeholder-purple {
+  @apply placeholder-purple-600;
+}
+
+.vk-placeholder-teal {
+  @apply placeholder-teal-600;
+}
+
+.vk-placeholder-lime {
+  @apply placeholder-lime-600;
+}
+
+.vk-placeholder-rose {
+  @apply placeholder-rose-600;
+}
+
+.vk-placeholder-violet {
+  @apply placeholder-violet-600;
+}
+
+.vk-placeholder-gray {
+  @apply placeholder-gray-600;
+}
+
+.vk-placeholder-yellow {
+  @apply placeholder-yellow-400;
+}
+
+.vk-placeholder-sky {
+  @apply placeholder-sky-400;
+}
+
+.vk-placeholder-cyan {
+  @apply placeholder-cyan-400;
+}

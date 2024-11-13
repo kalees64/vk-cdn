@@ -365,3 +365,757 @@ visit below link for samble outputs
   <img src="square.png" alt="Logo" class="vk-logo-round-xl" />
 </div>
 ```
+
+### Card Wigets
+
+```html
+<div class="flex gap-2 flex-wrap">
+  <div class="vk-card-widget w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-red w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-blue w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-green w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-yellow w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-orange w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-pink w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-teal w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-purple w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-lime w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-dark w-52">
+    <p class="vk-card-widget-value">64</p>
+    <p class="vk-card-widget-text">Total Tasks</p>
+  </div>
+</div>
+<br /><br />
+<div class="flex gap-2 flex-wrap">
+  <div class="vk-card-widget-md w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-red w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-blue w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-green w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-yellow w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-orange w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-pink w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-teal w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-purple w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-lime w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+  <div class="vk-card-widget-md-dark w-64">
+    <p class="vk-card-widget-md-value">64</p>
+    <p class="vk-card-widget-md-text">Total Tasks</p>
+  </div>
+</div>
+```
+
+### Header
+
+```html
+<header class="vk-header">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link-blue-cd">Link</a>
+        <a href="#" class="vk-link-blue-cd">Link</a>
+        <a href="#" class="vk-link-blue-cd">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link-blue-cd">Link</a>
+        <a href="#" class="vk-link-blue-cd">Link</a>
+        <a href="#" class="vk-link-blue-cd">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username">Name</a>
+        </div>
+        <button class="vk-btn max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-link-blue-cd vk-header-navmenu">Link</a>
+      <a href="#" class="vk-link-blue-cd vk-header-navmenu">Link</a>
+      <a href="#" class="vk-link-blue-cd vk-header-navmenu">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-link-blue-cd vk-header-navmenu">Link</a>
+      <a href="#" class="vk-link-blue-cd vk-header-navmenu">Link</a>
+      <a href="#" class="vk-link-blue-cd vk-header-navmenu">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-dark">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand-light">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-dark">Name</a>
+        </div>
+        <button class="vk-btn-dark max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-dark">Link</a>
+      <a href="#" class="vk-header-navmenu-dark">Link</a>
+      <a href="#" class="vk-header-navmenu-dark">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-dark">Link</a>
+      <a href="#" class="vk-header-navmenu-dark">Link</a>
+      <a href="#" class="vk-header-navmenu-dark">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-dark lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-blue">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username">Name</a>
+        </div>
+        <button class="vk-btn-blue max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-blue">Link</a>
+      <a href="#" class="vk-header-navmenu-blue">Link</a>
+      <a href="#" class="vk-header-navmenu-blue">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-blue">Link</a>
+      <a href="#" class="vk-header-navmenu-blue">Link</a>
+      <a href="#" class="vk-header-navmenu-blue">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-blue lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-red">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username">Name</a>
+        </div>
+        <button class="vk-btn-red max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-red">Link</a>
+      <a href="#" class="vk-header-navmenu-red">Link</a>
+      <a href="#" class="vk-header-navmenu-red">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-red">Link</a>
+      <a href="#" class="vk-header-navmenu-red">Link</a>
+      <a href="#" class="vk-header-navmenu-red">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-red lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-yellow">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-yellow">Name</a>
+        </div>
+        <button class="vk-btn-yellow max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-yellow">Link</a>
+      <a href="#" class="vk-header-navmenu-yellow">Link</a>
+      <a href="#" class="vk-header-navmenu-yellow">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-yellow">Link</a>
+      <a href="#" class="vk-header-navmenu-yellow">Link</a>
+      <a href="#" class="vk-header-navmenu-yellow">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-yellow lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-orange">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-orange">Name</a>
+        </div>
+        <button class="vk-btn-orange max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-orange">Link</a>
+      <a href="#" class="vk-header-navmenu-orange">Link</a>
+      <a href="#" class="vk-header-navmenu-orange">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-orange">Link</a>
+      <a href="#" class="vk-header-navmenu-orange">Link</a>
+      <a href="#" class="vk-header-navmenu-orange">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-orange lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-teal">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-teal">Name</a>
+        </div>
+        <button class="vk-btn-teal max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-teal">Link</a>
+      <a href="#" class="vk-header-navmenu-teal">Link</a>
+      <a href="#" class="vk-header-navmenu-teal">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-teal">Link</a>
+      <a href="#" class="vk-header-navmenu-teal">Link</a>
+      <a href="#" class="vk-header-navmenu-teal">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-teal lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-cyan">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-cyan">Name</a>
+        </div>
+        <button class="vk-btn-cyan max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-cyan">Link</a>
+      <a href="#" class="vk-header-navmenu-cyan">Link</a>
+      <a href="#" class="vk-header-navmenu-cyan">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-cyan">Link</a>
+      <a href="#" class="vk-header-navmenu-cyan">Link</a>
+      <a href="#" class="vk-header-navmenu-cyan">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-cyan lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-pink">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-pink">Name</a>
+        </div>
+        <button class="vk-btn-pink max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-pink">Link</a>
+      <a href="#" class="vk-header-navmenu-pink">Link</a>
+      <a href="#" class="vk-header-navmenu-pink">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-pink">Link</a>
+      <a href="#" class="vk-header-navmenu-pink">Link</a>
+      <a href="#" class="vk-header-navmenu-pink">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-pink lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-lime">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-lime">Name</a>
+        </div>
+        <button class="vk-btn-lime max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-lime">Link</a>
+      <a href="#" class="vk-header-navmenu-lime">Link</a>
+      <a href="#" class="vk-header-navmenu-lime">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-lime">Link</a>
+      <a href="#" class="vk-header-navmenu-lime">Link</a>
+      <a href="#" class="vk-header-navmenu-lime">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-lime lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+
+<header class="vk-header-purple">
+  <nav>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex">
+        <img src="favicon.png" alt="Logo" class="vk-logo" />
+        <h1 class="vk-nav-brand">Brand</h1>
+      </div>
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+    </div>
+    <div class="vk-header-flex">
+      <div class="vk-header-flex max-lg:hidden">
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+        <a href="#" class="vk-link">Link</a>
+      </div>
+      <div class="vk-header-flex">
+        <div class="vk-header-flex">
+          <img src="favicon.png" alt="Logo" class="vk-logo" />
+          <a href="#" class="vk-header-username-purple">Name</a>
+        </div>
+        <button class="vk-btn-purple max-lg:hidden">Logout</button>
+      </div>
+      <div class="vk-header-flex lg:hidden">
+        <button type="menu" class="rotate-90 font-bold">|||</button>
+      </div>
+    </div>
+  </nav>
+  <div class="lg:hidden">
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-purple">Link</a>
+      <a href="#" class="vk-header-navmenu-purple">Link</a>
+      <a href="#" class="vk-header-navmenu-purple">Link</a>
+    </div>
+    <div class="flex flex-col gap-2 pt-2 lg:hidden">
+      <a href="#" class="vk-header-navmenu-purple">Link</a>
+      <a href="#" class="vk-header-navmenu-purple">Link</a>
+      <a href="#" class="vk-header-navmenu-purple">Link</a>
+    </div>
+    <div class="vk-header-flex pt-2">
+      <button class="w-full vk-btn-purple lg:hidden">Logout</button>
+    </div>
+  </div>
+</header>
+```
+
+### Card Actions
+
+```html
+<div class="vk-card-with-actions">
+  <div>
+    <h1 class="vk-card-with-actions-title">Books List</h1>
+    <div class="flex gap-4 items-center">
+      <button class="vk-card-with-actions-button">+</button>
+      <button class="vk-card-with-actions-button rotate-90">...</button>
+    </div>
+  </div>
+  <div class="w-full h-40 bg-blue-500"></div>
+</div>
+<div class="vk-card-with-actions-blue">
+  <div>
+    <h1 class="vk-card-with-actions-title text-white">Books List</h1>
+    <div class="flex gap-4 items-center">
+      <button class="vk-card-with-actions-button text-white">+</button>
+      <button class="vk-card-with-actions-button rotate-90 text-white">...</button>
+    </div>
+  </div>
+  <div class="w-full h-40 bg-white"></div>
+</div>
+
+<div class="vk-card-with-actions-dark">
+  <div>
+    <h1 class="vk-card-with-actions-title text-white">Books List</h1>
+    <div class="flex gap-4 items-center">
+      <button class="vk-card-with-actions-button text-white">+</button>
+      <button class="vk-card-with-actions-button rotate-90 text-white">...</button>
+    </div>
+  </div>
+  <div class="w-full h-40 bg-white"></div>
+</div>
+```
+
+### Colors
+
+```html
+<div class="vk-bg-body w-full h-6" title="vk-bg-body"></div>
+<div class="vk-bg-white w-full h-6" title="vk-bg-white"></div>
+<div class="vk-bg-black w-full h-6" title="vk-bg-black"></div>
+<div class="vk-bg-blue w-full h-6" title="vk-bg-blue"></div>
+<div class="vk-bg-cyan w-full h-6" title="vk-bg-cyan"></div>
+<div class="vk-bg-sky w-full h-6" title="vk-bg-sky"></div>
+<div class="vk-bg-red w-full h-6" title="vk-bg-red"></div>
+<div class="vk-bg-rose w-full h-6" title="vk-bg-rose"></div>
+<div class="vk-bg-pink w-full h-6" title="vk-bg-pink"></div>
+<div class="vk-bg-purple w-full h-6" title="vk-bg-purple"></div>
+<div class="vk-bg-violet w-full h-6" title="vk-bg-violet"></div>
+<div class="vk-bg-teal w-full h-6" title="vk-bg-teal"></div>
+<div class="vk-bg-green w-full h-6" title="vk-bg-green"></div>
+<div class="vk-bg-lime w-full h-6" title="vk-bg-lime"></div>
+<div class="vk-bg-yellow w-full h-6" title="vk-bg-yellow"></div>
+<div class="vk-bg-orange w-full h-6" title="vk-bg-orange"></div>
+<div class="vk-bg-gray w-full h-6" title="vk-bg-gray"></div>
+```
+
+### Gradient Colors
+
+```html
+<div class="vk-bg-body-g w-full h-6" title="vk-bg-body-g"></div>
+<div class="vk-bg-white-g w-full h-6" title="vk-bg-white-g"></div>
+<div class="vk-bg-black-g w-full h-6" title="vk-bg-black-g"></div>
+<div class="vk-bg-blue-g w-full h-6" title="vk-bg-blue-g"></div>
+<div class="vk-bg-cyan-g w-full h-6" title="vk-bg-cyan-g"></div>
+<div class="vk-bg-sky-g w-full h-6" title="vk-bg-sky-g"></div>
+<div class="vk-bg-red-g w-full h-6" title="vk-bg-red-g"></div>
+<div class="vk-bg-rose-g w-full h-6" title="vk-bg-rose-g"></div>
+<div class="vk-bg-pink-g w-full h-6" title="vk-bg-pink-g"></div>
+<div class="vk-bg-purple-g w-full h-6" title="vk-bg-purple-g"></div>
+<div class="vk-bg-violet-g w-full h-6" title="vk-bg-violet-g"></div>
+<div class="vk-bg-teal-g w-full h-6" title="vk-bg-teal-g"></div>
+<div class="vk-bg-green-g w-full h-6" title="vk-bg-green-g"></div>
+<div class="vk-bg-lime-g w-full h-6" title="vk-bg-lime-g"></div>
+<div class="vk-bg-yellow-g w-full h-6" title="vk-bg-yellow-g"></div>
+<div class="vk-bg-orange-g w-full h-6" title="vk-bg-orange-g"></div>
+<div class="vk-bg-gray-g w-full h-6" title="vk-bg-gray-g"></div>
+```
+
+### Light Colors
+
+```html
+<div class="vk-bg-body-light w-full h-6" title="vk-bg-body-light"></div>
+<div class="vk-bg-white-light w-full h-6" title="vk-bg-white-light"></div>
+<div class="vk-bg-black-light w-full h-6" title="vk-bg-black-light"></div>
+<div class="vk-bg-blue-light w-full h-6" title="vk-bg-blue-light"></div>
+<div class="vk-bg-cyan-light w-full h-6" title="vk-bg-cyan-light"></div>
+<div class="vk-bg-sky-light w-full h-6" title="vk-bg-sky-light"></div>
+<div class="vk-bg-red-light w-full h-6" title="vk-bg-red-light"></div>
+<div class="vk-bg-rose-light w-full h-6" title="vk-bg-rose-light"></div>
+<div class="vk-bg-pink-light w-full h-6" title="vk-bg-pink-light"></div>
+<div class="vk-bg-purple-light w-full h-6" title="vk-bg-purple-light"></div>
+<div class="vk-bg-violet-light w-full h-6" title="vk-bg-violet-light"></div>
+<div class="vk-bg-teal-light w-full h-6" title="vk-bg-teal-light"></div>
+<div class="vk-bg-green-light w-full h-6" title="vk-bg-green-light"></div>
+<div class="vk-bg-lime-light w-full h-6" title="vk-bg-lime-light"></div>
+<div class="vk-bg-yellow-light w-full h-6" title="vk-bg-yellow-light"></div>
+<div class="vk-bg-orange-light w-full h-6" title="vk-bg-orange-light"></div>
+<div class="vk-bg-gray-light w-full h-6" title="vk-bg-gray-light"></div>
+```
+
+### Dark Colors
+
+```html
+<div class="vk-bg-body-dark w-full h-6" title="vk-bg-body-dark"></div>
+<div class="vk-bg-white-dark w-full h-6" title="vk-bg-white-dark"></div>
+<div class="vk-bg-black-dark w-full h-6" title="vk-bg-black-dark"></div>
+<div class="vk-bg-blue-dark w-full h-6" title="vk-bg-blue-dark"></div>
+<div class="vk-bg-cyan-dark w-full h-6" title="vk-bg-cyan-dark"></div>
+<div class="vk-bg-sky-dark w-full h-6" title="vk-bg-sky-dark"></div>
+<div class="vk-bg-red-dark w-full h-6" title="vk-bg-red-dark"></div>
+<div class="vk-bg-rose-dark w-full h-6" title="vk-bg-rose-dark"></div>
+<div class="vk-bg-pink-dark w-full h-6" title="vk-bg-pink-dark"></div>
+<div class="vk-bg-purple-dark w-full h-6" title="vk-bg-purple-dark"></div>
+<div class="vk-bg-violet-dark w-full h-6" title="vk-bg-violet-dark"></div>
+<div class="vk-bg-teal-dark w-full h-6" title="vk-bg-teal-dark"></div>
+<div class="vk-bg-green-dark w-full h-6" title="vk-bg-green-dark"></div>
+<div class="vk-bg-lime-dark w-full h-6" title="vk-bg-lime-dark"></div>
+<div class="vk-bg-yellow-dark w-full h-6" title="vk-bg-yellow-dark"></div>
+<div class="vk-bg-orange-dark w-full h-6" title="vk-bg-orange-dark"></div>
+<div class="vk-bg-gray-dark w-full h-6" title="vk-bg-gray-dark"></div>
+```

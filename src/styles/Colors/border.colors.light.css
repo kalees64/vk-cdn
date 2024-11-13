@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Border Light Colors */
+
+.vk-border-body-light {
+  @apply border-slate-200;
+}
+
+.vk-border-white-light {
+  @apply border-white/60;
+}
+
+.vk-border-black-light {
+  @apply border-black/50;
+}
+
+.vk-border-blue-light {
+  @apply border-blue-400;
+}
+
+.vk-border-red-light {
+  @apply border-red-400;
+}
+
+.vk-border-green-light {
+  @apply border-green-400;
+}
+
+.vk-border-orange-light {
+  @apply border-orange-400;
+}
+
+.vk-border-pink-light {
+  @apply border-pink-400;
+}
+
+.vk-border-purple-light {
+  @apply border-purple-400;
+}
+
+.vk-border-teal-light {
+  @apply border-teal-400;
+}
+
+.vk-border-lime-light {
+  @apply border-lime-400;
+}
+
+.vk-border-rose-light {
+  @apply border-rose-400;
+}
+
+.vk-border-violet-light {
+  @apply border-violet-400;
+}
+
+.vk-border-gray-light {
+  @apply border-gray-400;
+}
+
+.vk-border-yellow-light {
+  @apply border-yellow-300;
+}
+
+.vk-border-sky-light {
+  @apply border-sky-300;
+}
+
+.vk-border-cyan-light {
+  @apply border-cyan-300;
+}

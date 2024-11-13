@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Accent Colors */
+
+.vk-accent-body {
+  @apply accent-slate-300;
+}
+
+.vk-accent-white {
+  @apply accent-white;
+}
+
+.vk-accent-black {
+  @apply accent-black;
+}
+
+.vk-accent-blue {
+  @apply accent-blue-600;
+}
+
+.vk-accent-red {
+  @apply accent-red-600;
+}
+
+.vk-accent-green {
+  @apply accent-green-600;
+}
+
+.vk-accent-orange {
+  @apply accent-orange-600;
+}
+
+.vk-accent-pink {
+  @apply accent-pink-600;
+}
+
+.vk-accent-purple {
+  @apply accent-purple-600;
+}
+
+.vk-accent-teal {
+  @apply accent-teal-600;
+}
+
+.vk-accent-lime {
+  @apply accent-lime-600;
+}
+
+.vk-accent-rose {
+  @apply accent-rose-600;
+}
+
+.vk-accent-violet {
+  @apply accent-violet-600;
+}
+
+.vk-accent-gray {
+  @apply accent-gray-600;
+}
+
+.vk-accent-yellow {
+  @apply accent-yellow-400;
+}
+
+.vk-accent-sky {
+  @apply accent-sky-400;
+}
+
+.vk-accent-cyan {
+  @apply accent-cyan-400;
+}

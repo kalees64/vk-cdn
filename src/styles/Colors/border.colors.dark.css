@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Border Dark Colors */
+
+.vk-border-body-dark {
+  @apply border-slate-400;
+}
+
+.vk-border-white-dark {
+  @apply border-white;
+}
+
+.vk-border-black-dark {
+  @apply border-black;
+}
+
+.vk-border-blue-dark {
+  @apply border-blue-800;
+}
+
+.vk-border-red-dark {
+  @apply border-red-800;
+}
+
+.vk-border-green-dark {
+  @apply border-green-800;
+}
+
+.vk-border-orange-dark {
+  @apply border-orange-800;
+}
+
+.vk-border-pink-dark {
+  @apply border-pink-800;
+}
+
+.vk-border-purple-dark {
+  @apply border-purple-800;
+}
+
+.vk-border-teal-dark {
+  @apply border-teal-800;
+}
+
+.vk-border-lime-dark {
+  @apply border-lime-800;
+}
+
+.vk-border-rose-dark {
+  @apply border-rose-800;
+}
+
+.vk-border-violet-dark {
+  @apply border-violet-800;
+}
+
+.vk-border-gray-dark {
+  @apply border-gray-800;
+}
+
+.vk-border-yellow-dark {
+  @apply border-yellow-600;
+}
+
+.vk-border-sky-dark {
+  @apply border-sky-600;
+}
+
+.vk-border-cyan-dark {
+  @apply border-cyan-600;
+}

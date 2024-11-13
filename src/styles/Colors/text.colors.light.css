@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Text Light Colors */
+
+.vk-text-body-light {
+  @apply text-slate-200;
+}
+
+.vk-text-white-light {
+  @apply text-white/60;
+}
+
+.vk-text-black-light {
+  @apply text-black/50;
+}
+
+.vk-text-blue-light {
+  @apply text-blue-400;
+}
+
+.vk-text-red-light {
+  @apply text-red-400;
+}
+
+.vk-text-green-light {
+  @apply text-green-400;
+}
+
+.vk-text-orange-light {
+  @apply text-orange-400;
+}
+
+.vk-text-pink-light {
+  @apply text-pink-400;
+}
+
+.vk-text-purple-light {
+  @apply text-purple-400;
+}
+
+.vk-text-teal-light {
+  @apply text-teal-400;
+}
+
+.vk-text-lime-light {
+  @apply text-lime-400;
+}
+
+.vk-text-rose-light {
+  @apply text-rose-400;
+}
+
+.vk-text-violet-light {
+  @apply text-violet-400;
+}
+
+.vk-text-gray-light {
+  @apply text-gray-400;
+}
+
+.vk-text-yellow-light {
+  @apply text-yellow-300;
+}
+
+.vk-text-sky-light {
+  @apply text-sky-300;
+}
+
+.vk-text-cyan-light {
+  @apply text-cyan-300;
+}

@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Accent Light Colors */
+
+.vk-accent-body-light {
+  @apply accent-slate-200;
+}
+
+.vk-accent-white-light {
+  @apply accent-white/60;
+}
+
+.vk-accent-black-light {
+  @apply accent-black/50;
+}
+
+.vk-accent-blue-light {
+  @apply accent-blue-400;
+}
+
+.vk-accent-red-light {
+  @apply accent-red-400;
+}
+
+.vk-accent-green-light {
+  @apply accent-green-400;
+}
+
+.vk-accent-orange-light {
+  @apply accent-orange-400;
+}
+
+.vk-accent-pink-light {
+  @apply accent-pink-400;
+}
+
+.vk-accent-purple-light {
+  @apply accent-purple-400;
+}
+
+.vk-accent-teal-light {
+  @apply accent-teal-400;
+}
+
+.vk-accent-lime-light {
+  @apply accent-lime-400;
+}
+
+.vk-accent-rose-light {
+  @apply accent-rose-400;
+}
+
+.vk-accent-violet-light {
+  @apply accent-violet-400;
+}
+
+.vk-accent-gray-light {
+  @apply accent-gray-400;
+}
+
+.vk-accent-yellow-light {
+  @apply accent-yellow-300;
+}
+
+.vk-accent-sky-light {
+  @apply accent-sky-300;
+}
+
+.vk-accent-cyan-light {
+  @apply accent-cyan-300;
+}
