@@ -20,6 +20,14 @@
   @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
 }
 
+.vk-accordion-black {
+  @apply p-2 bg-black text-white w-full rounded;
+}
+
+.vk-accordion-black > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
 .vk-accordion-transparent {
   @apply p-2 bg-inherit w-full rounded hover:bg-white/30;
 }
