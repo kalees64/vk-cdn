@@ -100,3 +100,7 @@
 /* Accordian */
 
 @import "./styles/Accordian/accordian.css";
+
+/* Breadcrumbs */
+
+@import "./styles/Breadcrumbs/breadcrumb.css";
