@@ -13,9 +13,137 @@
 }
 
 .vk-accordion-default {
-  @apply p-2 bg-inherit w-full rounded hover:bg-white/50;
+  @apply p-2 bg-white w-full rounded;
 }
 
 .vk-accordion-default > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-transparent {
+  @apply p-2 bg-inherit w-full rounded hover:bg-white/30;
+}
+
+.vk-accordion-transparent > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-blue {
+  @apply p-2 bg-blue-500 w-full rounded hover:bg-blue-600;
+}
+
+.vk-accordion-blue > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-red {
+  @apply p-2 bg-red-500 w-full rounded hover:bg-red-600;
+}
+
+.vk-accordion-red > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-green {
+  @apply p-2 bg-green-500 w-full rounded hover:bg-green-600;
+}
+
+.vk-accordion-green > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-orange {
+  @apply p-2 bg-orange-500 w-full rounded hover:bg-orange-600;
+}
+
+.vk-accordion-orange > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-teal {
+  @apply p-2 bg-teal-500 w-full rounded hover:bg-teal-600;
+}
+
+.vk-accordion-teal > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-pink {
+  @apply p-2 bg-pink-500 w-full rounded hover:bg-pink-600;
+}
+
+.vk-accordion-pink > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-lime {
+  @apply p-2 bg-lime-500 w-full rounded hover:bg-lime-600;
+}
+
+.vk-accordion-lime > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-rose {
+  @apply p-2 bg-rose-500 w-full rounded hover:bg-rose-600;
+}
+
+.vk-accordion-rose > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-gray {
+  @apply p-2 bg-gray-500 w-full rounded hover:bg-gray-600;
+}
+
+.vk-accordion-gray > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-purple {
+  @apply p-2 bg-purple-500 w-full rounded hover:bg-purple-600;
+}
+
+.vk-accordion-purple > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-violet {
+  @apply p-2 bg-violet-500 w-full rounded hover:bg-violet-600;
+}
+
+.vk-accordion-violet > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-yellow {
+  @apply p-2 bg-yellow-400 w-full rounded hover:bg-yellow-500;
+}
+
+.vk-accordion-yellow > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-cyan {
+  @apply p-2 bg-cyan-400 w-full rounded hover:bg-cyan-500;
+}
+
+.vk-accordion-cyan > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-cyan {
+  @apply p-2 bg-cyan-400 w-full rounded hover:bg-cyan-500;
+}
+
+.vk-accordion-cyan > summary {
+  @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
+}
+
+.vk-accordion-sky {
+  @apply p-2 bg-sky-400 w-full rounded hover:bg-sky-500;
+}
+
+.vk-accordion-sky > summary {
   @apply font-semibold text-lg list-none cursor-pointer flex items-center justify-between;
 }
