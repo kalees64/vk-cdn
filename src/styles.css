@@ -116,3 +116,7 @@
 /* Tabs */
 
 @import "./styles/Tabs/tabs.css";
+
+/* Modal */
+
+@import "./styles/Modal/modal.css";
