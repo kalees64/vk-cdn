@@ -70,6 +70,7 @@
 @import "./styles/Navbar/header.css";
 
 /* Hidden Menu */
+
 @import "./styles/Menu/hidden-menu.css";
 @import "./styles/Menu/hidden-menu.item.css";
 
@@ -116,6 +117,7 @@
 /* Tabs */
 
 @import "./styles/Tabs/tabs.css";
+@import "./styles/Tabs/tabs.underline.css";
 
 /* Modal */
 

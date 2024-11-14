@@ -6,11 +6,21 @@ This is a simple, lightweight CSS framework that helps you style your website qu
 
 ### Installation
 
-To use this framework, add the following `<link>` tag in the `<head>` section of your HTML file:
+To use this framework, add the following `<link>` tag in the `<head>` section of your HTML file: [including tailwind css]
 
 ```html
 <link rel="stylesheet" href="https://kalees64.github.io/vk-cdn/vk-cdn.css" />
 ```
+
+(or)
+
+To use this framework, add the following `<link>` tag in the `<head>` section of your HTML file: [without tailwind css]
+
+```html
+<link rel="stylesheet" href="https://kalees64.github.io/vk-cdn-output/vk-cdn.css" />
+```
+
+(or)
 
 To use this framework, add the following `@import url()` tag in the CSS file:
 
