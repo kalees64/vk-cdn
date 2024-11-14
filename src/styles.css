@@ -104,3 +104,15 @@
 /* Breadcrumbs */
 
 @import "./styles/Breadcrumbs/breadcrumb.css";
+
+/* Dropdown */
+
+@import "./styles/Dropdown/dropdown.css";
+
+/* Offcanvas */
+
+@import "./styles/Offcanvas/offcanvas.css";
+
+/* Tabs */
+
+@import "./styles/Tabs/tabs.css";

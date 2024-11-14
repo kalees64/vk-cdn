@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Offcanvas */
+
+.vk-offcanvas {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-offcanvas-slide {
+  @apply w-96 bg-white h-dvh max-sm:w-80;
+}
+
+.vk-offcanvas-header {
+  @apply flex items-center justify-between p-4;
+}
+
+.vk-offcanvas-body {
+  @apply p-4;
+}
+
+.vk-offcanvas-default {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-offcanvas-slide-default {
+  @apply w-96 bg-white h-dvh max-sm:w-80;
+}
+
+.vk-offcanvas-left {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-offcanvas-slide-left {
+  @apply w-96 bg-white h-dvh max-sm:w-80;
+}
+
+.vk-offcanvas-right {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-offcanvas-slide-right {
+  @apply w-96 bg-white h-dvh max-sm:w-80 float-right;
+}
+
+.vk-offcanvas-top {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30;
+}
+
+.vk-offcanvas-slide-top {
+  @apply min-h-64 bg-white w-dvw;
+}
+
+.vk-offcanvas-bottom {
+  @apply absolute top-0 left-0 w-full h-dvh bg-black/30 flex items-end;
+}
+
+.vk-offcanvas-slide-bottom {
+  @apply min-h-64 bg-white w-dvw;
+}

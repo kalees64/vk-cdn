@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tabs */
+
+.vk-tabs {
+  @apply w-full;
+}
+
+.vk-tabs-list {
+  @apply w-full p-2 flex items-center gap-2;
+}
+
+.vk-tabs-trigger {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white;
+}
+
+.vk-tabs-trigger-active {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-black/30;
+}
+
+.vk-tabs-content {
+  @apply p-2;
+}
+
+.vk-tabs-trigger-default {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white;
+}
+
+.vk-tabs-trigger-active-default {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-black/30;
+}
+
+.vk-tabs-trigger-black {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white border-black;
+}
+
+.vk-tabs-trigger-active-black {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-black text-white border-black;
+}
+
+.vk-tabs-trigger-blue {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-blue-600 border-blue-600;
+}
+
+.vk-tabs-trigger-active-blue {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-blue-600 text-white;
+}
+
+.vk-tabs-trigger-red {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-red-600 border-red-600;
+}
+
+.vk-tabs-trigger-active-red {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-red-600 text-white;
+}
+
+.vk-tabs-trigger-rose {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-rose-600 border-rose-600;
+}
+
+.vk-tabs-trigger-active-rose {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-rose-600 text-white;
+}
+
+.vk-tabs-trigger-pink {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-pink-600 border-pink-600;
+}
+
+.vk-tabs-trigger-active-pink {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-pink-600 text-white;
+}
+
+.vk-tabs-trigger-green {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-green-600 border-green-600;
+}
+
+.vk-tabs-trigger-active-green {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-green-600 text-white;
+}
+
+.vk-tabs-trigger-lime {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-lime-600 border-lime-600;
+}
+
+.vk-tabs-trigger-active-lime {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-lime-600 text-white;
+}
+
+.vk-tabs-trigger-teal {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-teal-600 border-teal-600;
+}
+
+.vk-tabs-trigger-active-teal {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-teal-600 text-white;
+}
+
+.vk-tabs-trigger-orange {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-orange-600 border-orange-600;
+}
+
+.vk-tabs-trigger-active-orange {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-orange-600 text-white;
+}
+
+.vk-tabs-trigger-purple {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-purple-600 border-purple-600;
+}
+
+.vk-tabs-trigger-active-purple {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-purple-600 text-white;
+}
+
+.vk-tabs-trigger-violet {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-violet-600 border-violet-600;
+}
+
+.vk-tabs-trigger-active-violet {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-violet-600 text-white;
+}
+
+.vk-tabs-trigger-gray {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-gray-600 border-gray-600;
+}
+
+.vk-tabs-trigger-active-gray {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-gray-600 text-white;
+}
+
+.vk-tabs-trigger-cyan {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-cyan-400 border-cyan-400;
+}
+
+.vk-tabs-trigger-active-cyan {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-cyan-400 text-white;
+}
+
+.vk-tabs-trigger-sky {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-sky-400 border-sky-400;
+}
+
+.vk-tabs-trigger-active-sky {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-sky-400 text-white;
+}
+
+.vk-tabs-trigger-yellow {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-white text-yellow-400 border-yellow-400;
+}
+
+.vk-tabs-trigger-active-yellow {
+  @apply block w-40 grow border rounded py-2 text-center cursor-pointer bg-yellow-400 text-white;
+}

@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dropdown */
+
+.vk-dropdown {
+  @apply inline-block relative;
+}
+
+.vk-dropdown-menu {
+  @apply absolute top-12 left-0 flex border rounded  flex-col w-64 max-sm:w-52 bg-white;
+}
+
+.vk-dropdown-item {
+  @apply block p-2 text-center rounded hover:bg-black/10;
+}
+
+.vk-dropdown-default {
+  @apply inline-block relative;
+}
+
+.vk-dropdown-menu-default {
+  @apply absolute top-12 left-0 flex border rounded  flex-col w-64 max-sm:w-52 bg-white;
+}
+
+.vk-dropdown-top {
+  @apply inline-block relative;
+}
+
+.vk-dropdown-menu-top {
+  @apply absolute -top-32 left-0 flex border rounded  flex-col w-64 max-sm:w-52 bg-white;
+}
+
+.vk-dropdown-bottom {
+  @apply inline-block relative;
+}
+
+.vk-dropdown-menu-bottom {
+  @apply absolute top-12 left-0 flex border rounded  flex-col w-64 max-sm:w-52 bg-white;
+}
+
+.vk-dropdown-left {
+  @apply inline-block relative;
+}
+
+.vk-dropdown-menu-left {
+  @apply absolute top-0 -left-[17rem] max-sm:-left-56 flex border rounded  flex-col w-64 max-sm:w-52 bg-white;
+}
+
+.vk-dropdown-right {
+  @apply inline-block relative;
+}
+
+.vk-dropdown-menu-right {
+  @apply absolute top-0 -right-[17rem] max-sm:-right-56 flex border rounded  flex-col w-64 max-sm:w-52 bg-white;
+}
